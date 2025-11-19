@@ -5,7 +5,7 @@ import { pageTransition } from "../components/animations";
 import {Number, RevealPop} from '../components/motion'
 
 const Resume = () => {
-  const resumeUrl = '/Ali-Ogochukwu-Peter.pdf';
+  const resumeUrl = '/Ali-Ogochukwu-Peter.docx';
   const aliHngCertificateUrl = '/Ali-Peter-HNG.jpg';
 
   return (

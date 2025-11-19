@@ -4,7 +4,8 @@ import ScrollReveal from "scrollreveal";
 import Navbar from "../components/navbar";
 import project1 from '../assets/project_image_1.jpg';
 import project2 from '../assets/project_image_2.png';
-import project3 from '../assets/project_image_3.jpg';
+import project3 from '../assets/project_image_3.png';
+import project4 from '../assets/project_image_4.png';
 import Footer from "../components/footer";
 import { pageTransition } from "../components/animations";
 import { Link } from "react-router-dom";
@@ -28,12 +29,19 @@ const Work = () => {
       image: project2
     },
     {
-      title: "Wechora Foods",
-      description: "A feature-rich e-commerce platform for a food company, offering seamless online ordering and a user-friendly experience. It includes product browsing, category filtering, and an intuitive checkout process. The backend is built with Node.js and Express, handling secure user authentication, order processing, and real-time inventory management. Integrated with Mongoose for efficient database operations and Axios for smooth API communication, Wechora Foods ensures a fast and responsive shopping experience.",
-      technologies: ["ReactJS", "NodeJS", "Mongoose", "ExpressJS", "Tailwind CSS", "Axios"],
-      link: "https://www.wechorafoods.com/",
+      title: "GlobalSuite ERP",
+      description: "An enterprise desktop ERP used by Nigerian Stockbrokers Ltd (NSL). I maintain and improve its 15+ modules including Accounting, Payments, Customer Management, KYC Dashboard, Risk, and HR. Responsibilities include debugging Crystal Reports, optimizing SQL Server stored procedures, improving performance, and implementing secure authentication and role-based access for 100+ users.",
+      technologies: ["C#", ".NET Framework", "WinForms", "SQL Server", "Stored Procedures", "Crystal Reports"],
+      link: "#",
+      image: project4
+    },
+    {
+      title: "DevAtlas Academy",
+      description: "A full-stack online learning platform built for educators and students. Features secure user authentication (JWT + BCrypt), admin dashboard for course management, responsive frontend with modern UI, and a scalable REST API backend. Deployed on Microsoft Azure with CI/CD via GitHub Actions. Includes Swagger documentation, MongoDB Atlas integration, and production-grade environment configuration.",
+      technologies: ["React", "Vite", "Tailwind CSS", "Node.js", ".NET 8", "MongoDB Atlas", "Azure App Service", "Azure Static Web Apps", "JWT Auth", "BCrypt", "GitHub Actions"],
+      link: "https://ashy-forest-0480f531e.3.azurestaticapps.net",
       image: project3
-    }
+    },
   ], []);
   
 

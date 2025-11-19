@@ -40,7 +40,7 @@ const Home = () => {
       <motion.section {...pageTransition} className="container mx-auto p-6 text-center">
         <h2 className="text-2xl sm:text-3xl font-semibold">My Expertise</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-6">
-          {["HTML", "CSS", "React.js", "Tailwind CSS", "Node.js", "Python-Flask", "Express.js", "FastAPI", "PostgreSQL", "MySQL", "MongoDB", "Docker", "Redis", "Celery"].map(skill => (
+          {["C# (.NET Framework)", "WinForms", "Stored Procedures", "Crystal Reports", "HTML", "CSS", "React.js", "Node.js", "Tailwind CSS", "Python-Flask", "FastAPI", "SQL Server", "MySQL", "MongoDB", "Docker", "Celery"].map(skill => (
             <motion.div key={skill} whileHover={{ scale: 1.1 }} className="bg-gray-800 p-3 sm:p-4 rounded-lg shadow-lg text-center">
               {skill}
             </motion.div>
